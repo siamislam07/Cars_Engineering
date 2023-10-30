@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Car Engine Plug",
+        "image": "https://i.ibb.co/JdxxsYn/1.png",
+        "price": 19.99
+    },
+    {
+        "id": 2,
+        "title": "Car Air Filter",
+        "image": "https://i.ibb.co/W2xJz1F/2.png",
+        "price": 29.99
+    },
+    {
+        "id": 3,
+        "title": "Cools Led Light",
+        "image": "https://i.ibb.co/gF1XxCs/3.png",
+        "price": 14.99
+    },
+    {
+        "id": 4,
+        "title": "WoodCutter",
+        "image": "https://i.ibb.co/mCJbMj6/4.png",
+        "price": 39.99
+    },
+    {
+        "id": 5,
+        "title": "Big Tires",
+        "image": "https://i.ibb.co/JBLGc10/5.png",
+        "price": 24.99
+    },
+    {
+        "id": 6,
+        "title": "Solar Battery",
+        "image": "https://i.ibb.co/Jp0V1q3/6.png",
+        "price": 49.99
+    }
+]
