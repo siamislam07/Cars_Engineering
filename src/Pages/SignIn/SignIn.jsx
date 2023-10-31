@@ -1,11 +1,14 @@
-import { useContext } from "react";
+// import { useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { AuthContext } from "../../providers/AuthProvider";
+// import { AuthContext } from "../../providers/AuthProvider";
 import axios from "axios";
+import useAuth from "../../hooks/useAuth";
 
-const Login = () => {
+const SignIn = () => {
+    const {signIn} = useAuth()
 
-    const { signIn } = useContext(AuthContext)
+    // const { signIn } = useContext(AuthContext)
+
     const location = useLocation()
     const navigate = useNavigate()
 
@@ -81,4 +84,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default SignIn;
